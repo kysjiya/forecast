@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="forecast.css">
+    <script src="forecast.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <div class="main-container">
+        <div class="bg">
+            <form action="" onsubmit="forecast(); return false">
+                <input type="text" placeholder="Enter your Location" id="input">
+                <input type="submit" name="Check Weather" id="btn">
+            </form>
+            <div style="font-size: medium; color: lightgrey; display: flex; flex-direction: row; justify-content: space-between;" class="destiny">
+            <div id="location">Location:</div>
+            <div id="region">Region:</div>
+            <div id="country">Country:</div>
+            </div>
+    
+            <div class="forecast-info" style="display: flex; flex-direction: row; justify-content: space-between;">
+              <div id="precipation">precipation</div>
+              <div id="temp">Temperature:</div>
+              <div id="hum">Humidity:</div>
+              <div id="wind-dir">Wind Direction:</div>
+              <div id="wind-kph">Wind velocity:</div>
+              <div id="condition">Condition:</div>
+
+              <img src="" alt="" id="forecast-icon">
+          </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.main-container{
+    background-image: url(bg2.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.bg{
+    width: 95%;
+}
+#input{
+    border: 1px lightslategray;
+    border-radius: 5px;
+    padding: 10px 50px 10px 10px;
+}
+#input:hover{
+    background-color: cornflowerblue;
+}
+#btn{
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+#btn:hover{
+    background-color:cornflowerblue;
+
+}
+.forecast-info{
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.442);
+    border: 1px solid black;
+    width: 90%;
+}
+.destiny{
+    width: 50%;
+    padding: 10px;
+    text-align: justify;
+    background-color: rgba(255, 255, 255, 0.442);
+    border: 1px solid black;
+}
